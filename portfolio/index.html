@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD ALIM UDDIN Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">MD ALIM UDDIN</h1>
+            <p class="text-lg">Aspiring Data Analyst</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-8 px-4">
+        <!-- About Section -->
+        <section id="about" class="bg-white shadow-lg rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-bold text-blue-600">About Me</h2>
+            <p class="mt-4 text-gray-700">
+                Hello! I am a student pursuing a BSc in Computer Science and Engineering at IIUC. 
+                I am passionate about data analysis and programming, with skills in various languages and tools.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-white shadow-lg rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-bold text-blue-600">Skills</h2>
+            <ul class="list-disc list-inside mt-4 text-gray-700">
+                <li>C</li>
+                <li>C++</li>
+                <li>C#</li>
+                <li>Python</li>
+                <li>Python Libraries</li>
+                <li>MySQL</li>
+                <li>Microsoft Excel</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-white shadow-lg rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-bold text-blue-600">Projects</h2>
+            <p class="mt-4 text-gray-700">
+                Below is a sample C# code snippet that demonstrates my work:
+            </p>
+            <pre class="bg-gray-200 p-4 rounded-lg overflow-auto mt-4">
+<code class="text-sm text-gray-800">
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Welcome to my Portfolio!");
+        Console.WriteLine("Skills:");
+        string[] skills = { "C", "C++", "C#", "Python", "MySQL", "Excel" };
+        foreach (string skill in skills)
+        {
+            Console.WriteLine("- " + skill);
+        }
+    }
+}
+</code>
+            </pre>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white shadow-lg rounded-lg p-6 mb-8">
+            <h2 class="text-2xl font-bold text-blue-600">Contact Me</h2>
+            <form class="mt-4 space-y-4">
+                <div>
+                    <label for="name" class="block text-gray-600">Name</label>
+                    <input type="text" id="name" class="w-full p-2 border rounded-lg">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-600">Email</label>
+                    <input type="email" id="email" class="w-full p-2 border rounded-lg">
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-600">Message</label>
+                    <textarea id="message" rows="4" class="w-full p-2 border rounded-lg"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700">
+                    Send Message
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-blue-600 text-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Student Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
